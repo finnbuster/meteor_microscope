@@ -5,7 +5,8 @@ var postsData = [
   }, 
   {
     title: 'Meteor',
-    url: 'http://meteor.com'
+    url: 'http://meteor.com',
+    cool: true
   }, 
   {
     title: 'The Meteor Book',
