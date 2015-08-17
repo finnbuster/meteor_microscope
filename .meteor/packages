@@ -8,3 +8,5 @@ standard-app-packages
 twbs:bootstrap
 underscore
 
+iron:router
+sacha:spin
