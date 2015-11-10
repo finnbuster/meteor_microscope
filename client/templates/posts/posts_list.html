@@ -1,7 +1,15 @@
 <template name="postsList">
   <div class="posts page">
+
+    <h1>All posts</h1>
     {{#each posts}}
       {{> postItem}}
     {{/each}}
+
+	<h1>Cool posts</h1>
+	{{#each coolposts}}
+	  {{> postItem}}
+	{{/each}}
+	
   </div>
 </template>
